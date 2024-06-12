@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./dist/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <style>
+      .swiper-wrapper {
+        width: 100%;
+        height: max-content !important;
+        padding-bottom: 64px !important;
+        -webkit-transition-timing-function: linear !important;
+        transition-timing-function: linear !important;
+        position: relative;
+      }
+
+      .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+        background: #4f46e5 !important;
+      }
+
+      .swiper-pagination-bullet {
+        background: #4f46e5;
+      }
+
+      .swiper-pagination-bullet-active {
+        background: #4f46e5 !important;
+      }
+    </style>
+  </head>
+
+  <body class="">
+    <div class="bg-tanishq min-w-full">
+      <div class="flex p-3 ml-24">
+        <!-- Logo -->
+        <div class="ml-28 mr-6 min-w-16">
+          <img src="./images/tanishq_read.png" alt="logo" class="h-14" />
+        </div>
+        <!-- Search bar -->
+        <div class="flex-grow">
+          <div class="bg-white h-12 rounded-md flex items-center px-4">
+            <input
+              type="text"
+              placeholder="Search for Gold Jewellery, Diamond..."
+              class="bg-transparent outline-none flex-grow text-gray-600 placeholder:text-gray-400"
+            />
+            <div class="flex items-center space-x-3 min-w-28">
+              <img src="./images/scanner.png" alt="scanner" class="w-5 h-5" />
+              <img src="./images/mic.png" alt="mic" class="w-5 h-5" />
+              <img src="./images/search.png" alt="search" class="w-5 h-5" />
+            </div>
+          </div>
+        </div>
+        <!-- dailywear -->
+        <div class="flex mr-48">
+          <div>
+            <div class="ml-5">
+              <img
+                src="./images/diamond.png"
+                alt="dailywear"
+                class="w-6 h-6 ml-5"
+              />
+              <p class="text-xs mt-2">DAILYWEAR</p>
+            </div>
+          </div>
+          <!-- store -->
+          <div>
+            <div class="ml-5">
+              <img
+                src="./images/store.png"
+                alt="dailywear"
+                class="w-6 h-6 ml-2"
+              />
+              <p class="text-xs mt-2">STORES</p>
+            </div>
+          </div>
+          <!-- account -->
+          <div>
+            <div class="ml-5">
+              <img
+                src="./images/account.png"
+                alt="dailywear"
+                class="w-6 h-6 ml-3"
+              />
+              <p class="text-xs mt-2">ACCOUNT</p>
+            </div>
+          </div>
+          <!-- wishlist -->
+          <div>
+            <div class="ml-5">
+              <img
+                src="./images/wishlist.png"
+                alt="dailywear"
+                class="w-6 h-6 ml-3"
+              />
+              <p class="text-xs mt-2">WISHLIST</p>
+            </div>
+          </div>
+          <!-- cart -->
+          <div>
+            <div class="ml-5">
+              <img src="./images/cart.png" alt="dailywear" class="w-6 h-6" />
+              <p class="text-xs mt-2">CART</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="bg-rest min-h-[200px] min-w-full text-center bg-cover bg-center bg-no-repeat"
+      style="background-image: url('./images/ellipse_trial.png')"
+    >
+      <div class="pt-32">
+        <p class="text-tantext text-lg">TANISHQ DIAMONDS</p>
+        <p class="text-white text-3xl">Where every Natural Diamond</p>
+        <p class="text-white text-3xl">tells a story</p>
+      </div>
+      <div class="min-h-96 text-tantext mt-20">Video</div>
+
+      <div>
+        <div class="pt-22">
+          <p class="text-white text-3xl">REAL IS RARE. REAL IS DIAMOND</p>
+          <p class="text-tantext text-base mt-5">
+            A COMPANION TO SPECIAL MOMENTS
+          </p>
+        </div>
+        <!-- Carousel -->
+
+        <div class="w-full relative mt-10">
+          <div class="swiper centered-slide-carousel swiper-container relative">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div
+                  class="bg-indigo-50 rounded-2xl h-96 flex justify-center items-center"
+                >
+                  <span class="text-3xl font-semibold text-indigo-600"
+                    ><img src="./images/TanishqLogo.png" class="h-96" alt="" />
+                  </span>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="bg-indigo-50 rounded-2xl h-96 flex justify-center items-center"
+                >
+                  <span class="text-3xl font-semibold text-indigo-600"
+                    ><img
+                      src="./images/t1.png"
+                      class="w-[150rem] h-96"
+                      alt=""
+                    />
+                  </span>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="bg-indigo-50 rounded-2xl h-96 flex justify-center items-center"
+                >
+                  <span class="text-3xl font-semibold text-indigo-600"
+                    ><img
+                      src="./images/t2.png"
+                      class="w-[150rem] h-96"
+                      alt=""
+                    />
+                  </span>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="bg-indigo-50 rounded-2xl h-96 flex justify-center items-center"
+                >
+                  <span class="text-3xl font-semibold text-indigo-600"
+                    ><img
+                      src="./images/Siilverring.png"
+                      class="w-[150rem] h-96"
+                      alt=""
+                    />
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+
+        <!-- Carousel end -->
+
+        <p class="text-3xl text-white mt-5">Finger Rings</p>
+        <div class="flex items-center justify-center">
+          <img src="./images/rings.png" class="w-50 h-60" />
+        </div>
+      </div>
+      <div class="mt-10 bg-tanishq min-h-36">Long horizont</div>
+      <div class="text-start mt-24 ml-14">
+        <p class="text-tantext">A COMPANION FOR EVERY OCCASION</p>
+        <p class="text-white text-3xl">Captivate With Diamond Jewellery</p>
+      </div>
+
+      <!-- Carousel 2 -->
+      <div class="w-full relative mt-10">
+        <div class="swiper centered-slide-carousel swiper-container relative">
+          <div class="swiper-wrapper flex items-center">
+            <div class="swiper-slide">
+              <div class="text-start">
+                <div class="flex flex-col items-center justify-center">
+                  <img src="./images/p1.png" alt="" class="h-96" />
+                </div>
+                <div class="ml-20">
+                  <p class="text-white">HIGH VALUE (320)</p>
+                  <p class="text-tantext">
+                    The epitome of luxury and refinement
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="text-start">
+                <div class="flex items-center justify-center">
+                  <img src="./images/p2.png" alt="" class="h-96" />
+                </div>
+                <div class="ml-20">
+                  <p class="text-white">EVERYDAY DIAMONDS (410)</p>
+                  <p class="text-tantext">
+                    Styling Diamond Jewellery for effortless Glamour
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="text-start">
+                <div class="flex items-center justify-center">
+                  <img src="./images/p3.png" alt="" class="h-96" />
+                </div>
+                <div class="ml-24">
+                  <p class="text-white">SOLITAIRES (258)</p>
+                  <p class="text-tantext">
+                    A captivating statement of elegance and sophistication
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="text-start">
+                <div class="flex items-center justify-center">
+                  <img src="./images/p4.png" alt="" class="h-96" />
+                </div>
+
+                <div class="ml-20">
+                  <p class="text-white">FINE EARRING (410)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <!-- Carousel 2 ending -->
+      <div>
+        <div class="flex items-center justify-evenly mt-16">
+          <div class="flex">
+            <p class="text-[#D8D8D8] text-8xl">HERITAGE</p>
+            <div class="pb-5">
+              <img src="./images/Siilverring.png" class="h-36" alt="" />
+            </div>
+            <p class="text-[#435468] text-8xl">SINCE 1994</p>
+          </div>
+        </div>
+        <div>
+          <p class="text-[#435468] text-8xl">INDIA'S FINEST JEWELLERS</p>
+        </div>
+      </div>
+      <div class="mt-16">
+        <div>
+          <p class="text-white text-4xl">
+            A pristine solitaire for every new chapter
+          </p>
+          <p class="text-[#A2C4E2] text-1xl ml-[500px] mr-[500px]">
+            Every Tanishq diamond shines at 30 cents or above setting the
+            benchmark for ages to come
+          </p>
+        </div>
+        <div class="flex items-center justify-center mt-24">
+          <img src="./images/card1.png" class="w-96 mx-4" alt="" />
+          <img src="./images/card2.png" class="w-96 mx-4" alt="" />
+          <img src="./images/card3.png" class="w-96 mx-4" alt="" />
+        </div>
+        <div class="flex items-center justify-evenly mt-24">
+          <img src="./images/ring1.png" class="w-96 mx-4" alt="" />
+          <img src="./images/ring2.png" class="w-96 mx-4" alt="" />
+        </div>
+      </div>
+      <div class="h-52"></div>
+    </div>
+    <div class="bg-rest min-w-full">
+      <div class="flex flex-col items-center justify-center">
+        <p class="text-tantext mt-36 text-sm">A PIECE OF ETERNITY</p>
+        <p class="text-white text-3xl">Diamonds as special as you</p>
+      </div>
+      <div class="flex">
+        <div class="mt-32 ml-24">
+          <div class="text-white">
+            <h2 class="text-7xl">Rythms of Rain</h2>
+            <p class="w-96 mt-10">
+              Within the delicate embrace of time-worn elegance, the Tales of
+              Mystique Collection weaves a spellbinding tapestry. Each
+              luminescent ornament holds secrets whispered across centuries.
+            </p>
+          </div>
+
+          <!-- Shop now button -->
+          <div class="mt-16">
+            <button
+              class="flex items-center px-4 py-2 bg-gray-300 rounded-full shadow-md"
+            >
+              <span class="text-gray-700 font-semibold">SHOP NOW</span>
+              <svg
+                class="ml-2 h-4 w-4 text-gray-700"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <!-- three images -->
+          <div class="flex mt-24 items-center justify-evenly">
+            <img src="./images/ringer3.png" class="w-60 h-80" alt="" />
+            <img src="./images/ringer2.png" class="w-60 h-80 ml-20" alt="" />
+            <img
+              src="./images/ringer.png"
+              class="h-80 ml-20 z-10 shadow-xl"
+              alt=""
+            />
+          </div>
+          <div class="mt-10">
+            <img src="./images/natty.png" class="w-60" />
+          </div>
+        </div>
+        <div class="mt-14">
+          <img src="./images/girl.png" class="h-[850px]" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- ellipse ring -->
+    <div
+      class="bg-rest min-h-[150em] flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat"
+      style="background-image: url('./images/ring_ellipse.png')"
+    >
+      <div
+        class="mb-[15em] flex flex-col text-center items-center justify-center"
+      >
+        <div>
+          <p class="text-white text-3xl">
+            Pop the question when it rings true.
+          </p>
+          <p class="text-tantext">SYMBOL OF AN ETERNAL BOND</p>
+        </div>
+
+        <!-- browse button -->
+        <div class="mt-16">
+          <button
+            class="flex items-center px-4 py-2 bg-gray-300 rounded-full shadow-md"
+          >
+            <span class="text-gray-700 font-semibold"
+              >BROWSE ENGAGEMENT RINGS</span
+            >
+            <svg
+              class="ml-2 h-4 w-4 text-gray-700"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="w-[70em] mt-24">
+          <img src="./images/girl2.png" class="" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".centered-slide-carousel", {
+        centeredSlides: true,
+        paginationClickable: true,
+        loop: true,
+        fraction: true,
+        spaceBetween: 30,
+        slideToClickedSlide: true,
+        pagination: {
+          el: ".centered-slide-carousel .swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          1920: {
+            slidesPerView: 5,
+            spaceBetween: 30,
+          },
+          1028: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+          },
+          990: {
+            slidesPerView: 2,
+            spaceBetween: 0,
+          },
+        },
+      });
+      var swiper = new Swiper(".progress-slide-carousel", {
+        loop: true,
+        fraction: true,
+        autoplay: {
+          delay: 1200,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".progress-slide-carousel .swiper-pagination",
+          type: "progressbar",
+        },
+        breakpoints: {
+          1920: {
+            slidesPerView: 5,
+            spaceBetween: 30,
+          },
+          1028: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+          },
+          990: {
+            slidesPerView: 2,
+            spaceBetween: 0,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
